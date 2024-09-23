@@ -6,8 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   height: 100vh;
-background-image: linear-gradient(rgb(243, 217, 199), rgb(248, 241, 227) );
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,12 +13,9 @@ background-image: linear-gradient(rgb(243, 217, 199), rgb(248, 241, 227) );
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-
 }
