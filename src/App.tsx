@@ -5,9 +5,13 @@ import { Home } from "./components/home/Home";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/precios" element={<Home />} />
+        <Route path="/servicios" element={<Home />} />
+        <Route path="/serviciosHome" element={<Home />} />
+        <Route path="/imagenesGaleriaHome" element={<Home />} />
+        <Route path="/imagenesGaleriaConocenos" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
