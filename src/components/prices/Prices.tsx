@@ -1,4 +1,3 @@
-import React from "react";
 import "./Prices.css";
 export const Prices = () => {
   return (
