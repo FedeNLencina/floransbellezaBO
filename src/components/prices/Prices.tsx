@@ -1,5 +1,9 @@
 import React from "react";
-
+import "./Prices.css";
 export const Prices = () => {
-  return <div></div>;
+  return (
+    <div className="container-fluid pricesContainer">
+      <div className="container"></div>
+    </div>
+  );
 };
