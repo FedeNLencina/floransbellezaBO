@@ -10,7 +10,10 @@ function App() {
       <LogoComponent />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/precios" element={<Prices />} />
+        <Route path="/precios" element={<Prices />}>
+          <Route path="/manicuria" />
+          <Route path="/pestaniasYCejas" />
+        </Route>
         <Route path="/servicios" element={<Home />} />
         <Route path="/serviciosHome" element={<Home />} />
         <Route path="/imagenesGaleriaHome" element={<Home />} />
